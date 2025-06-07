@@ -1,0 +1,26 @@
+/* universal selector */
+*{
+    background-color: aqua;
+}
+
+/* simple selector */
+/* naming tag selector */
+h1{
+    color: red;
+}
+p{
+    color: blue;
+}
+/* id selector */
+#id_selector{
+    background-color: red;
+}
+/* class selector */
+.class_selector{
+    background-color: black;
+}
+/* grouping selector */
+.group1,.group2,.group3{
+    background-color: blue;
+    color: white;
+}

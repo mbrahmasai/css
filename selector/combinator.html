@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>combinator selector</title>
+    <link rel="stylesheet" href="combinator.css">
+</head>
+<body>
+    <!-- descendant combinator (space) -->
+     <div>
+        <p>this is paragraph1</p>
+        <p>this is paragraph2</p>
+     </div>
+     <p>this is not descendant paragraph1</p>
+     <p>this is not descendant paragraph2</p>
+
+     <!--child combinator (>)-->
+     <div class="div1">
+        <p>this is child1</p>
+        <p>this is child2</p>
+        <section>
+            <p>this is descendant 1 not child</p>
+            <p>this is descendant 2 not child</p>
+        </section>
+        <p>this is child3</p>
+     </div>
+     <!-- next sibling selector -->
+     <div class="div2">
+        <p>this is child1</p>
+        <p>this is child2</p>
+     </div>
+     <p>this is next sibling </p>
+     <p>this is another sibling</p>
+
+     <!-- adjacent sibling or subsequent sibling -->
+
+    <div class="div3">
+        <p>this is child1</p>
+        <p>this is child2</p>
+     </div>
+     <p>this is next sibling </p>
+     <p>this is another sibling</p>
+
+</body>
+</html>

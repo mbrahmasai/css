@@ -1,0 +1,22 @@
+/* descendant selector */
+div p{
+    background-color: blue;
+
+}
+/* child selector */
+.div1 > p {
+    background-color: green;
+    color: brown;
+}
+
+/* next sibling */
+.div2 + p {
+    background-color: red;
+    color: greenyellow;
+}
+
+/* adjancent sibling */
+.div3 ~ p {
+    background-color: aqua;
+    color: yellow;
+}
