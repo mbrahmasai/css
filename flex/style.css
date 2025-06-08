@@ -1,0 +1,65 @@
+/* flex box  */
+.item{
+    width:100px;
+    height:100px;
+    border:2px solid red;
+    background-color: aqua;
+    /* to center the content */
+    /* to center the content with  main axis */
+    text-align: center; 
+   /* to center the content with cross-axis */
+    align-content: center;
+}
+
+.container{
+    display: flex;
+    background-color: blueviolet;
+    /* main axis */
+    margin-bottom: 100px;
+    border: 2px solid black;
+    height: 400px;
+
+    /* to change the main axis with help of flex-direction */
+    /*  default main axis */
+    /* flex-direction: row;   */
+    /* flex-direction: row-reverse; */
+
+    /* justify content */
+
+    /* justify-content: flex-start;
+    justify-content: center;
+    justify-content: flex-end;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly; */
+
+    /* change to cross axis*/
+    /* flex-direction: column ;  */
+    /* flex-direction: column-reverse; */
+
+    /* align-item */
+    align-items: flex-start;
+}
+.item1{
+    font-size: 200px;
+}
+
+.itema{
+    border: 2px solid blue;
+    width: 100px;
+    height: 100px;
+    color: red;
+    background-color: blanchedalmond;
+
+
+    text-align: center;
+    align-content: center;
+}
+
+.container1{
+    display: flex;
+    background-color: brown;
+    border: 2px solid black;
+    height: 400px;
+    align-items: baseline;
+}
