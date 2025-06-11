@@ -1,0 +1,22 @@
+/* inline = height not workout */
+
+
+.a{
+    display: inline;
+    background-color: red;
+    height: 100px;
+    width: 500px;
+}
+
+.b{
+    display: inline-block;
+    background-color: blue;
+    height: 50px;
+    width: 100px;
+}
+.c{
+    display: block;
+    background-color: aqua;
+        height: 50px;
+    width: 100px;
+}
